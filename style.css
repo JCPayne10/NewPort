@@ -7,8 +7,8 @@
 /* CUSTOM Properties */
 
 :root {
-  --ff-primary: 'Source Sans Pro', sans-serif;
-  --ff-secondary: 'Source Sans Pro', monospace;
+  --ff-primary: 'Krona One', sans-serif;
+  --ff-secondary: 'Coda Caption';
 
   --fw-reg: 300;
   --fw-bold: 900;
@@ -298,7 +298,7 @@ header {
 
 .my-services {
   background-color: var(--clr-dark);
-  background-image: url(../FirstPortfolio/images/hoop1.jpg);
+  background-image: url(../Portfolio/images/hoop1.jpg);
   background-size: cover;
   background-blend-mode: multiply;
   color: var(--clr-light);
@@ -523,3 +523,32 @@ header {
 
 /* FS individual portfolio styles */
 
+#fs_background {
+  background-color: var(--clr-dark);
+  background-image: url(../Portfolio/images/iansfarm11.png);
+  background-size: cover;
+  background-blend-mode: soft-light;
+  color: var(--clr-light);
+  text-align: center;
+  justify-content: center;
+}
+
+#fs_background {
+  width: 100%;
+  margin: 0;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+ 
+}
+
+.fs__background {
+  background-color: var(--clr-dark);
+  background-image: url(../Portfolio/images/iansfarm9.png);
+  background-size: cover;
+  background-blend-mode: overlay;
+  color: var(--clr-light);
+  text-align: center;
+  justify-content: center
+}
