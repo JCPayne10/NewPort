@@ -545,7 +545,7 @@ header {
 
 .fs__background {
   background-color: var(--clr-dark);
-  background-image: url(/images/iansfarm9.png);
+  background-image: url(images/iansfarm9.png);
   background-size: cover;
   background-blend-mode: overlay;
   color: var(--clr-light);
