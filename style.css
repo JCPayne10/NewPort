@@ -553,6 +553,51 @@ header {
   justify-content: center
 }
 
+.site-build-discription {
+  background-color: var(--clr-dark);
+  background-image: url(images/iansfarm18.png);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: var(--clr-light);
+  text-align: center;
+}
+
+.section__title--feature-discriptions {
+  color: var(--clr-accent);
+  position: relative; 
+}
+
+.section__title--feature-discriptions::after {
+  content: '';
+  display: block;
+  width: 2em;
+  height: 1px;
+  margin: 0.5em auto 1em;
+  background: var(--clr-light);
+  opacity: 0.25;
+}
+ .feature-discriptions {
+  margin-bottom: 4em;
+}
+
+.feature-discription {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+  .feature-discriptions {
+    display: flex;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .feature-discription {
+    margin-left: 2em;
+  } 
+}
+
 /* DG individual portfolio styles */
 
 #dg_background {
@@ -655,12 +700,21 @@ header {
   text-align: center;
   justify-content: center
 }
+.site-build-discription-dg {
+  background-color: var(--clr-dark);
+  background-image: url(images/nicsfarm10.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: var(--clr-light);
+  text-align: center;
+}
 
 /* Muvrs individual portfolio styles */
 
+.muvrs__background,
 #muvrs_background {
   background-color: var(--clr-dark);
-  background-image: url(images/raleighpic.jpg);
+  background-image: url(images/boxtruck5.jpg);
   background-size: cover;
   background-blend-mode: multiply;
   color: var(--clr-light);
@@ -675,4 +729,23 @@ header {
   left: 0;
   bottom: 0;
   overflow: hidden;
+}
+
+.site-build-discription-mv {
+  background-color: var(--clr-dark);
+  background-image: url(images/raleighpic.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: var(--clr-light);
+  text-align: center;
+}
+
+.muvrs___background {
+  background-color: var(--clr-dark);
+  background-image: url(images/boxtruck3.jpg);
+  background-size: cover;
+  background-blend-mode: overlay;
+  color: var(--clr-light);
+  text-align: center;
+  justify-content: top;
 }
