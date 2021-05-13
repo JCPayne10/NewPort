@@ -140,7 +140,7 @@ h3 { font-size: var(--fs-h3) }
 
 /* Header */
 .logo {
-  max-width: 100px;
+  max-width: 90px;
 }
 
 header {
